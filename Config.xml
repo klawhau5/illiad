@@ -10,16 +10,16 @@
     <Form>FormRequest</Form>
   </Forms>
   <Settings>
-    <Setting name="username" value="100086616" type="string">
+    <Setting name="username" value="xxx" type="string">
       <Description>The username used to log in to OCLC.</Description>
     </Setting>
-    <Setting name="password" value="BBHill" type="string">
+    <Setting name="password" value="xxx" type="string">
       <Description>The password used to log in to OCLC.</Description>
     </Setting>
-    <Setting name="rapidUsr" value="bbh" type="string">
+    <Setting name="rapidUsr" value="xxx" type="string">
       <Description>The username used to log in to Rapid.</Description>
     </Setting>
-    <Setting name="rapidPwd" value="BB8rapid" type="string">
+    <Setting name="rapidPwd" value="xxx" type="string">
       <Description>The password used to log in to Rapid.</Description>
     </Setting>
   </Settings>
