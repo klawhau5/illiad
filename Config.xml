@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Incorrect Loan Charge</Name>
+  <Author>Bowdoin College</Author>
+  <Version>1.0.0.1</Version>
+  <Active>True</Active>
+  <Type>Addon</Type>
+  <Description>Detects whether incorrect charges have been incurred before Borrowing Receive process.</Description>
+  <Forms>
+    <Form>FormRequest</Form>
+  </Forms>
+  <Settings>
+    <Setting name="username" value="100086616" type="string">
+      <Description>The username used to log in to OCLC.</Description>
+    </Setting>
+    <Setting name="password" value="BBHill" type="string">
+      <Description>The password used to log in to OCLC.</Description>
+    </Setting>
+    <Setting name="rapidUsr" value="bbh" type="string">
+      <Description>The username used to log in to Rapid.</Description>
+    </Setting>
+    <Setting name="rapidPwd" value="BB8rapid" type="string">
+      <Description>The password used to log in to Rapid.</Description>
+    </Setting>
+  </Settings>
+  <Files>
+    <File>IncorrectLoanCharge.lua</File>
+  </Files>
+</Configuration>
